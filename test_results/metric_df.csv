@@ -1,0 +1,2 @@
+Train Cross Entropy Loss,"Train Dice Coefficient Score (Background, Breast)",Val Cross Entropy Loss,"Val Dice Coefficient Score (Background, Breast)",Test Cross Entropy Loss,"Test Dice Coefficient Score (Background, Breast)"
+0.3344589762198619,0.6649997242859431,[0.16937341 0.83751553],[0.8263073  0.25383383],0.3549159356525966,[0.17847596 0.79791737]
