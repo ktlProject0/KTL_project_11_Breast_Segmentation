@@ -1,6 +1,6 @@
 # KTL_project_11_Breast_Segmentation
 
-This repository contains a PyTorch implementation of a polyp segmentation deep learning model. The steps for training and testing the model are outlined below.
+This repository contains a PyTorch implementation of a breast segmentation deep learning model. The steps for training and testing the model are outlined below.
 
 ## Directory Structure
 
