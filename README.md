@@ -1,4 +1,4 @@
-# KTL_project_11_Breast_Segmentation
+# KTL_project_11_CT_Breast_Segmentation
 
 This repository contains a PyTorch implementation of a breast segmentation deep learning model. The steps for training and testing the model are outlined below.
 
@@ -51,8 +51,8 @@ Before you begin, ensure you have met the following requirements:
 
 - Clone this repo:
 ```bash
-git clone https://github.com/ktlProject0/KTL_project_11_Breast_Segmentation.git
-cd KTL_project_11_Breast_Segmentation
+git clone https://github.com/ktlProject0/KTL_project_11_CT_Breast_Segmentation.git
+cd KTL_project_11_CT_Breast_Segmentation
 ```
  - You can create a new Conda environment using `conda env create -f environment.yml`.
 
@@ -62,9 +62,9 @@ cd KTL_project_11_Breast_Segmentation
 To train the model, run the following script. You can modify training hyperparameters (such as epochs, learning rate, batch size) in train.py.
 ```bash
 #if you run with gpu:
-  python train.py --data_direc ./data --cuda
+  python train.py --data_direc ./data --cuda --total_epoch 100
 #else you run with cpu:
-  python train.py --data_direc ./data
+  python train.py --data_direc ./data --total_epoch 100
 ```
 - Test the model:
 Once the model is trained, you can evaluate its performance on the test set by running the test.py script.
