@@ -1,4 +1,4 @@
-name: 11_breast_segmentation
+name: KTL_project_11_CT_Breast_Segmentation
 channels:
   - pytorch
   - conda-forge
